@@ -19,7 +19,7 @@ void loop() {
 }
 
 double getSample() {
-  double sample_value = 98.5;
+  double sample_value = random(0, 10000)/100.0;
 
   return sample_value;
 }
